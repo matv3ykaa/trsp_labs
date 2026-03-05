@@ -1,0 +1,41 @@
+echo "Запуск тестов для тасков 3_1, 3_2, 5_1, 5_2, 5_3, 5_4 и 5_5..."
+echo "============================================================"
+sleep 1
+
+echo ""
+echo "Запуск тестов для таска 3_1"
+pytest task3_1/test.py -v
+sleep 3
+
+echo ""
+echo "Запуск тестов для таска 3_2"
+pytest task3_2/test.py -v
+sleep 3
+
+echo ""
+echo "Запуск тестов для таска 5_1"
+pytest task5_1/test.py -v
+sleep 3
+
+echo ""
+echo "Запуск тестов для таска 5_2"
+pytest task5_2/test.py -v
+sleep 3
+
+echo ""
+echo "Запуск тестов для таска 5_3"
+pytest task5_3/test.py -v
+sleep 3
+
+echo ""
+echo "Запуск тестов для таска 5_4"
+pytest task5_4/test.py -v
+sleep 3
+
+echo ""
+echo "Запуск тестов для таска 5_5"
+pytest task5_5/test.py -v
+
+echo ""
+echo "============================================================"
+echo "Все тесты завершены!"
